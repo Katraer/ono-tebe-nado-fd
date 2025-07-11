@@ -1,6 +1,6 @@
 /* место для вашего кода */
 .header {
-    background-color: rgb(241, 212, 212);
+    background-color: rgb(255, 255, 255);
     min-height: 293px;
     display: grid;
     justify-content: space-around;
@@ -9,20 +9,29 @@
     grid-template-columns: 1fr min-content 1fr;
 }
 
-.header__logo {
+/*.header__logo {
+    width: 148px;
+    height: 105px;
+}*/
+
+.header__logo-image {
     width: 148px;
     height: 105px;
 }
 
 .header__menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
     
 }
 
 .header__links-list {
     display: flex;
     gap: 32px;
-    padding: 133px 0 139px 50px;
+    padding: 132px 0px 139px 10px;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .header__links-list-item {
@@ -41,6 +50,14 @@
 
 .address{
     font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    margin-left: 133px;
+}
+
+.header__address {
+  list-style-type: none;
 }
 
 
