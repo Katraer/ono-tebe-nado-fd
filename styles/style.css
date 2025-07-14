@@ -38,7 +38,7 @@
 .header__links-list-item_no-bullit {
   list-style-type: none;
   text-decoration: none;
-  text-underline-offset: none ;
+  text-underline-offset: none;
 }
 
 .address {
@@ -170,7 +170,7 @@
   justify-content: space-between;
   align-content: center;
   list-style-type: none;        
-  margin: 25px -24px 0 23px;
+  margin: 27px -24px 0 23px;
 }
 
 .lots__card-list-item {
@@ -208,11 +208,16 @@
   background-position: center;
 }
 
-.card-link {
+.card__title {
   font-size: 22px;
   font-weight: 700;
   color: #fff;
+  text-decoration: underline;
   
+}
+
+.card-link {
+  text-decoration:none;
 }
 
 .card__text {
