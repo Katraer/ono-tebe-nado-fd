@@ -179,8 +179,8 @@
 .card {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-content: flex-start;
+  justify-content: space-evenly;
+  align-items: center;
   position: relative;
   width: 334px;
   height: 596px;
@@ -213,8 +213,8 @@
   font-weight: 700;
   color: #fff;
   text-decoration: underline;
-  
 }
+
 
 .card-link {
   text-decoration:none;
