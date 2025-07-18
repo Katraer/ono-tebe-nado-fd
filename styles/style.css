@@ -55,7 +55,6 @@
 
 .header__address {
   margin-left: 133px;
-  padding: 0 0 0 0;
 }
 
 .header__address-list {
@@ -68,7 +67,7 @@
 }
 
 .header__address-item {
-  margin: 1px 0 4px 2px;
+  margin: -1px 0 5px 2px;
   padding: 0 0 0 0;
 }
 
@@ -250,9 +249,9 @@
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: 334px 2fr;
   align-items: center;
-  width: 1052px;
+  width: 1051x;
   height: 595px;
-  margin: 109px 24px 0 24px;
+  margin: 109px 2px 0 24px;
 }
 
 .about__logo  {
@@ -290,10 +289,10 @@
 .about__text {
   display: flex;
   flex-direction: column;
-  gap: 26px;
+  gap: 23px;
   font-size: 20px;
   font-weight: 400;
-  margin: -14px 0 0 28px;
+  margin: -11px 25px 0 25px;
   
 }
 
