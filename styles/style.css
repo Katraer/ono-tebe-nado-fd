@@ -1,6 +1,6 @@
 /* место для вашего кода */
 .header {
-  background-color:#fff;
+  background-color: #fff;
   min-height: 293px;
   display: grid;
   justify-content: space-around;
@@ -71,7 +71,7 @@
 }
 
 .cover {
-  display: flex; 
+  display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -87,7 +87,7 @@
 .overlay {
   position: absolute;
   width: 100%;
-  height: 100%; 
+  height: 100%;
   background-color: rgba(0 0 0 / 0.6);
   z-index: -1;
 }
@@ -107,7 +107,6 @@
   color: #fff;
 }
 
-
 .aligned-text_left {
   display: block;
   text-align: left;
@@ -120,14 +119,14 @@
   display: block;
   text-align: center;
   letter-spacing: 30px;
-  margin: 26px 0 0 30px;  
+  margin: 26px 0 0 30px;
 }
 
 .aligned-text_right {
   display: block;
   text-align: right;
   letter-spacing: 30px;
-  margin: 18px 20px 0 0;  
+  margin: 18px 20px 0 0;
 }
 
 .cover__description {
@@ -136,15 +135,15 @@
   gap: 10px;
   flex-direction: row;
   justify-content: space-around;
-  margin: 105px -13px 0 -1px;  
+  margin: 105px -13px 0 -1px;
 }
 
 .cover__description-text {
   width: 637px;
   font-size: 22px;
   word-spacing: 18px;
-  text-transform: uppercase; 
-  padding-left: 2px; 
+  text-transform: uppercase;
+  padding-left: 2px;
 }
 
 .bet-button {
@@ -161,13 +160,13 @@
   width: 1052px;
   height: 723px;
   margin-top: 180px;
-} 
+}
 
 .lots__heading {
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
-  padding-left: 64px
+  padding-left: 64px;
 }
 
 .lots__card-list {
@@ -175,7 +174,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: center;
-  list-style-type: none;        
+  list-style-type: none;
   margin: 27px -24px 30px 23px;
 }
 
@@ -217,12 +216,12 @@
   color: #fff;
   text-decoration: underline;
   text-transform: uppercase;
-  padding: 49px 40px 0 40px;
+  padding: 48px 40px 0 40px;
+  text-underline-offset: 3px;
 }
 
-
 .card-link {
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .card__text {
@@ -237,7 +236,6 @@
   font-size: 20px;
   font-weight: 400;
   margin-left: 64px;
-
 }
 
 .about {
@@ -250,7 +248,7 @@
   margin: 108px 2px 0 24px;
 }
 
-.about__logo  {
+.about__logo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -270,7 +268,7 @@
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
-  margin: 136px 0 92px 25px ;
+  margin: 136px 0 92px 25px;
 }
 
 .about__column {
@@ -289,7 +287,6 @@
   font-size: 20px;
   font-weight: 400;
   margin: -11px 25px 0 25px;
-  
 }
 
 .footer {
@@ -351,6 +348,3 @@
   height: 48px;
   list-style-type: none;
 }
-
-
-
