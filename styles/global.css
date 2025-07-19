@@ -9,6 +9,7 @@ body {
   margin: 0 auto;
   font-family: Raleway, sans-serif;
   padding: 0;
+  overflow-x: hidden;
 }
 
 h1,
