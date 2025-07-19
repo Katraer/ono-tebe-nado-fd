@@ -99,13 +99,14 @@
 }
 
 .cover__description {
+  width: 1100px;
   display: flex;
   flex-direction: row;
   align-items: start;
   justify-content: space-evenly;
   color: #fff;
   gap: 10px;
-  margin: 117px -13px 0 -27px;
+  margin: 117px -13px 0 0px;
 }
 
 .aligned-text_left {
@@ -135,7 +136,7 @@
   font-size: 22px;
   word-spacing: 18px;
   text-transform: uppercase;
-  margin: 0px 0px 0px -11px;
+  margin: 0px 0px 0px -27px;
 }
 
 .bet-button {
@@ -146,7 +147,7 @@
   background-color: rgba(2 2 2 / 0);
   color: #fff;
   border: 1px solid white;
-  margin: -13px -29px 50px 5px;
+  margin: -13px -29px 50px 17px;
   padding-left: 0;
 }
 .lots {
