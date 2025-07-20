@@ -1,12 +1,12 @@
 /* место для вашего кода */
 .header {
   background-color: #fff;
-  min-height: 293px;
   display: grid;
   justify-content: space-around;
   justify-items: center;
   align-items: center;
   grid-template-columns: 1fr min-content 1fr;
+  margin-top: 4px;
 }
 
 .header__logo-image {
@@ -33,13 +33,14 @@
   grid-template-columns: auto;
   justify-content: space-evenly;
   font-size: 18px;
+  list-style-type: circle;
 }
 
 .header__links-list-item_no-bullit {
   list-style-type: none;
 }
 
-.header__links-list-item_no-underline {
+.header__link-active {
   text-decoration: none;
   text-underline-offset: none;
 }
@@ -50,29 +51,26 @@
   display: flex;
   flex-direction: column;
   width: 240px;
-  height: 98px;
 }
 
 .header__address {
-  margin-left: 133px;
+  margin-left: 136px;
 }
 
-.header__address-list {
-  height: 98px;
+.address-list {
   font-style: normal;
   font-weight: 400;
   list-style-type: none;
-  padding: -1px 0px 0px 133px;
   text-underline-offset: 4px;
 }
 
-.header__address-item {
-  margin: -1px 0 5px 2px;
+.address-list__item {
+  margin-bottom: 5px;
 }
 
 .cover {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -81,11 +79,13 @@
   background-position: center;
   position: relative;
   min-height: 757px;
-  z-index: -1;
+  z-index: 1;
+  margin-top: 5px;
 }
 
 .overlay {
   position: absolute;
+  inset: 0px 0px 1px;
   width: 100%;
   height: 100%;
   background-color: rgba(0 0 0 / 0.6);
@@ -99,14 +99,14 @@
 }
 
 .cover__description {
-  width: 1100px;
+  max-width: 100%;
   display: flex;
   flex-direction: row;
   align-items: start;
   justify-content: space-evenly;
   color: #fff;
   gap: 10px;
-  margin: 117px -13px 0 0px;
+  padding: 117px 0px 0 0px;
 }
 
 .aligned-text_left {
@@ -114,7 +114,7 @@
   text-align: left;
   letter-spacing: 30px;
   line-height: 1;
-  margin: 173px 0 0 50px;
+  margin: 172px 0 0 30px;
 }
 
 .aligned-text_center {
@@ -128,7 +128,7 @@
   display: block;
   text-align: right;
   letter-spacing: 30px;
-  margin: 17px 20px 0 0;
+  margin: 17px 0 0 644px;
 }
 
 .cover__description-text {
@@ -136,7 +136,7 @@
   font-size: 22px;
   word-spacing: 18px;
   text-transform: uppercase;
-  margin: 0px 0px 0px -27px;
+  margin-right: 106px;
 }
 
 .bet-button {
@@ -274,13 +274,16 @@
   margin-top: 11px;
 }
 
-.about__text {
+.about__text-section {
   display: flex;
   flex-direction: column;
-  gap: 23px;
+  gap: 26px;
+  margin: -13px 25px 0 25px;
+}
+
+.about__text {
   font-size: 20px;
   font-weight: 400;
-  margin: -11px 25px 0 25px;
 }
 
 .footer {
@@ -297,6 +300,10 @@
   font-weight: 400;
 }
 
+.footer__address {
+  margin: 14px 0 0 -117px;
+}
+
 .footer__menu-list {
   display: flex;
   flex-direction: column;
@@ -308,11 +315,6 @@
 }
 
 .footer__menu-link_active {
-  text-decoration: none;
-}
-
-.footer__address {
-  margin: 13px 0 0 -117px;
   text-decoration: none;
 }
 
