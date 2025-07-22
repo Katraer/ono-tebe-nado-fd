@@ -86,7 +86,7 @@
 
 .overlay {
   position: absolute;
-  inset: 0px 0px 1px;
+  inset: 0;
   width: 100%;
   height: 100%;
   background-color: rgba(0 0 0 / 0.6);
@@ -154,7 +154,7 @@
 }
 
 .lots {
-  width: 1052px;
+  width: 100%;
   margin-top: 180px;
 }
 
@@ -167,10 +167,11 @@
 
 .lots__card-list {
   display: flex;
-  gap: 25px;
+  flex-wrap: wrap;
+  gap: 8px;
   justify-content: space-evenly;
   list-style-type: none;
-  margin: 27px 0px 30px 24px;
+  margin: 27px 7px 30px 7px;
 }
 
 .card {
@@ -229,11 +230,10 @@
 
 .about {
   display: grid;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
   grid-template-columns: 334px 2fr;
   align-items: center;
   width: 1051px;
-  height: 595px;
   margin: 108px 2px 0 24px;
 }
 
@@ -288,7 +288,8 @@
   justify-items: center;
   align-items: start;
   grid-template-columns: 1fr min-content 1fr;
-  margin-top: 180px;
+  margin-top: 169px;
+  padding-bottom: 82px ;
   font-size: 18px;
   font-weight: 400;
 }
@@ -304,7 +305,7 @@
   list-style-type: none;
   width: 164px;
   padding-top: 13px;
-  text-underline-offset: 5px;
+  text-underline-offset: 4px;
 }
 
 .footer__menu-link_active {
