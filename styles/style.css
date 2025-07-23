@@ -168,10 +168,10 @@
 .lots__card-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
-  justify-content: space-evenly;
+  gap: 25px;
+  justify-content: flex-start;
   list-style-type: none;
-  margin: 27px 7px 30px 7px;
+  margin: 27px 0px 30px 24px;
 }
 
 .card {
@@ -289,7 +289,7 @@
   align-items: start;
   grid-template-columns: 1fr min-content 1fr;
   margin-top: 169px;
-  padding-bottom: 82px ;
+  padding-bottom: 82px;
   font-size: 18px;
   font-weight: 400;
 }
